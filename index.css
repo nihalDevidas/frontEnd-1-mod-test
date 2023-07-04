@@ -1,0 +1,352 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Ruda';
+}
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+     background-color: black;
+     color:white;
+    padding-bottom:40px;
+}
+
+/* header styles  */
+.header-con{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 2;
+}
+
+.rest-logo{
+    height:5.1rem;
+    width:33.3rem;
+    font-size:2.9rem;
+    font-weight: bold;
+    text-align: center;
+    color:#ffffff;
+    
+}
+
+.rest-nav{
+    display:flex;
+    justify-content: space-between;
+
+    width:63rem;
+}
+.item{
+    font-size:2.2rem;
+    color:#e7e5e5;
+}
+
+.media-con{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width:23rem; 
+}
+
+/* main section image */
+
+.image-container{
+    
+    width:130rem;
+    height:66rem;
+
+    background-image: url("../frontEnd-1-mod-test/image/pizza1 1.png");
+    background-size: cover;
+    
+    
+    margin-inline:auto;
+    margin-top:6rem;
+}
+.inner-container{
+    width:inherit;
+    height:inherit;
+    background-color: rgba(0,0,0,0.5);
+    transition: background-color 0.16s;
+    
+}
+.inner-container:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+
+.text-in-image{
+    width:90.2rem;
+    font-size: 10.1rem;
+    font-weight: bold;
+    font-family: 'Quattrocento';
+    line-height: 10.85rem;
+    color:#ffffff;
+    padding-top: 3rem ;
+    padding-bottom:6rem;
+    padding-left:3.5rem;
+}
+
+.line-in-image{
+    height:0rem;
+    width:56.4rem;
+    border: 0.8rem solid  #F24C4C;
+    margin-left:5rem;
+
+}
+.desp-in-image{
+    width:59.9rem;
+    font-size:2.5rem ;
+    color:#e7e5e5;
+
+    padding-top: 5rem ;
+    padding-bottom:2rem;
+    padding-left:4.5rem;
+}
+
+/* about section  */
+
+.abt-con{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;;
+    margin-top:5rem;
+}
+
+.sec1-about{
+  
+    width:52.6rem;
+    height:5.8rem;
+    font-size: 6rem;
+    font-weight:normal;
+    font-family: 'Quattrocento';
+    text-align: center;
+
+   
+}
+.line-in-sec1{
+    height:0rem;
+    width:52.6rem;
+    border: 0.4rem solid  #F24C4C;
+    
+
+}
+.inner-sec1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+    width:130rem;
+    min-height:55rem;
+    margin-inline:auto;
+
+    margin-top:4rem;
+}
+.sec1-p{
+    width:64.7rem;
+    height:40rem;
+}
+.line-in-sec1-p{
+    height:0rem;
+    width:55.6rem;
+    border: 0.2rem solid  #F24C4C;
+    margin-bottom:1rem;
+
+}
+.sec1-img >img{
+
+    width:53rem;
+    height:44.6rem;
+}
+
+/* menu section */
+#menu-sec3 > .line-in-sec1{
+    width:42rem;
+}
+.sec3-desp{
+   width:130rem;
+  
+   margin-inline:auto;
+   padding: 3rem 1rem 3rem 1rem ;
+}
+
+ .menu-card-container{     /* card grid */
+    width:130rem;
+    margin-inline:auto;
+    margin-top: 5rem;
+    
+
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+}
+.menu-card{
+    display:flex;
+}
+.menu-image > img{
+    width:27.308rem;
+    height:20rem;
+}
+.menu-desp{
+    padding:1rem;
+}
+.menu-text1{
+    width:34.8rem;
+    height:3.1rem;
+    font-size: 2.8rem; 
+    color:#F2C94C;
+}
+.menu-text2{
+    width:34.6rem;
+    height:12rem;   
+}
+
+/* carosel css */
+
+#sec4-corosal-line{
+    width:42rem;
+}
+.crousal-con{
+    width:120rem;
+    margin-inline: auto;
+    margin-top:4rem;
+}
+.carousel-item >img{
+    width:133.4rem;
+    height:63.8rem;
+    object-fit: cover;
+}
+
+
+/* gallery section */
+
+#sec5-galary-line{
+    width:42rem; 
+    margin-top:1rem;
+}
+
+.grid-1{
+    margin-top:2rem;
+
+    width:130rem;
+    height:60.7rem;
+    margin-inline:auto;
+    
+
+    display:grid;
+    grid-template-columns: 65rem 65rem;
+    row-gap:1rem;
+    column-gap: 1rem;
+}
+
+
+.grid-2{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap:1rem;
+    column-gap: 1rem;
+   
+}
+
+
+.element-11{
+    display:grid;
+    grid-template-rows: repeat(3,1fr); 
+    row-gap:1rem;
+    column-gap: 1rem;
+}
+
+
+.element-22{
+    display:grid;
+    grid-template-rows: repeat(2,1fr); 
+    row-gap:1rem;
+    column-gap: 1rem;
+}
+
+.grid-1-img, .grid-2-img, .grid-3-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius:1rem;
+}
+
+/* find us section */
+.abt-con1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;;
+    margin-top:5rem;
+}
+
+.sec1-find{
+  
+    width:52.6rem;
+    height:5.8rem;
+    font-size: 6rem;
+    font-weight:normal;
+    font-family: 'Quattrocento';
+    text-align: center;
+
+   
+}
+.line-in-sec12{
+    height:0rem;
+    width:52.6rem;
+    border: 0.4rem solid  #F24C4C;
+    
+
+}
+.cont{
+    margin-top:3rem;
+    display:flex;
+    width:130rem;
+    align-items: center;
+    margin-inline:auto;
+}
+
+@media (max-width:1278px){
+    :root{
+        font-size:60%;
+    }
+    
+}
+@media (max-width:1078px){
+    :root{
+        font-size:55%;
+    }
+}
+@media (max-width:1017px){
+    :root{
+        font-size:50%;
+    }
+    
+}
+
+@media (max-width:820px){
+    :root{
+        font-size:45%;
+    }
+    
+}
+@media (max-width:694px){
+    :root{
+        font-size:40%;
+    }
+    
+}
+@media (max-width:500px){
+    :root{
+        font-size:35%;
+    }
+}
